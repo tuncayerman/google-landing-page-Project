@@ -45,12 +45,12 @@ header {
     padding: 15px 15px 0px 15px;
 }
 
-#appicon {
+#app-icon {
     vertical-align: middle;
     opacity: 0.5;
 }
 
-#appicon:hover {
+#app-icon:hover {
     opacity: 1;
 }
 
@@ -98,10 +98,11 @@ header {
     right: 74px;
 }
 
-.serchbar {
+.searchbar {
     text-align: center;
     padding-top: 20px;
     margin-left: 60px;
+
 }
 
 #search {
@@ -162,4 +163,43 @@ input {
     border: 1px solid lightgray;
     box-shadow: 0.7px 0.7px 0.7px lightgray;
     cursor: pointer;
+} 
+
+#language {
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+
+}
+
+
+footer {
+    width: 100%;
+    padding-left: 5px;
+    line-height: 40px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2; 
+    color: #5f6368;;
+}
+
+.country {
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
+
+.footer-left {
+    float: left;
+    color: #5f6368;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.footer-links {
+    color: #5f6368;;
 }
